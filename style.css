@@ -1,0 +1,313 @@
+body{
+background-color: rgb(103, 39, 39);
+} 
+
+#spin-list{
+    position: absolute;
+    height:311px;
+    margin-top:1px;
+    width:26%;
+    margin-left:26.4%;
+    border:solid 1px white;
+    background-color:white;
+}
+#spin-list>button{
+    transition:0.2s;
+    position: absolute;
+    cursor: pointer;
+    border:solid 1px white;
+    color: white;
+}
+#spin-list>button:hover{
+    opacity:0.3;
+}
+#start-spin, #refresh{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    background-color: black;
+    color:black;
+    margin-left:40%;
+    margin-top:120px;
+}
+#refresh{
+    width:75px;
+    display: none;
+}
+#spin-num0{
+    height:50px;
+    width:20%;
+    background: rgb(60, 169, 60);
+}
+#spin-num1{
+    height:50px;
+    width:20%;
+    background: red;
+    margin-left:20%;
+}
+#spin-num2{
+    height:50px;
+    width:20%;
+    background: black;
+    margin-left:40%;
+}
+#spin-num3{
+    height:50px;
+    width:20%;
+    background: red;
+    margin-left:60%;
+}
+#spin-num4{
+    height:50px;
+    width:20%;
+    background: black;
+    margin-left:80%;
+}
+#spin-num5{
+    height:70px;
+    width:20%;
+    background: red;
+    margin-left:80%;
+    margin-top:50px;
+    transform: rotate(90deg);
+}
+#spin-num6{
+    height:70px;
+    width:20%;
+    background: black;
+    margin-left:80%;
+    margin-top:120px;
+    transform: rotate(90deg);
+}
+#spin-num7{
+    height:70px;
+    width:20%;
+    background: red;
+    margin-left:80%;
+    margin-top:190px;
+    transform: rotate(90deg);
+}
+#spin-num12{
+    height:50px;
+    width:20%;
+    margin-top:260px;
+    background: black;
+}
+#spin-num11{
+    height:50px;
+    width:20%;
+    background: red;
+    margin-top:260px;
+    margin-left:20%;
+}
+#spin-num10{
+    height:50px;
+    width:20%;
+    background: black;
+    margin-top:260px;
+    margin-left:40%;
+}
+#spin-num9{
+    height:50px;
+    width:20%;
+    background: red;
+    margin-top:260px;
+    margin-left:60%;
+}
+#spin-num8{
+    height:50px;
+    width:20%;
+    background: black;
+    margin-top:260px;
+    margin-left:80%;
+}
+#spin-num13{
+    height:70px;
+    width:20%;
+    background: red;
+    margin-top:190px;
+    transform: rotate(270deg);
+}
+#spin-num14{
+    height:70px;
+    width:20%;
+    background: black;
+    margin-top:120px;
+    transform: rotate(270deg);
+}
+#spin-num15{
+    height:70px;
+    width:20%;
+    background: red;
+    margin-top:50px;
+    transform: rotate(270deg);
+}
+
+
+
+#roulette-list{
+    height:310px;
+    width:18.2%;
+    margin-top:165px;
+    margin-left:53%;
+    border:solid 2px white;
+}
+#roulette-list>button{
+    transition:0.2s;
+    position: absolute;
+    cursor: pointer;
+    border:solid 1px white;
+    color: white;
+}
+#roulette-list>button:hover{
+    opacity:0.3;
+}
+
+#num0{
+    height:310px;
+    width:3%;
+    background-color: rgb(60, 169, 60);
+}
+#num1{
+    margin-left:3%;
+    height:103px;
+    width:3%;
+    margin-top:207px;
+    background-color:red;
+}
+#num2{
+    margin-left:3%;
+    height:103.3px;
+    width:3%;
+    margin-top:103px;
+    background-color:black;
+}
+#num3{
+    margin-left:3%;
+    height:103.3px;
+    width:3%;
+    background-color:red;
+}
+#num4{
+    margin-left:6%;
+    height:103px;
+    width:3%;
+    margin-top:207px;
+    background-color:black;
+}
+#num5{
+    margin-left:6%;
+    height:103px;
+    width:3%;
+    margin-top:103px;
+    background-color:red;
+}
+#num6{
+    margin-left:6%;
+    height:103.3px;
+    width:3%;
+    background-color:black;
+}
+#num7{
+    margin-left:9%;
+    height:103px;
+    width:3%;
+    margin-top:207px;
+    background-color:red;
+}
+#num8{
+    margin-left:9%;
+    height:103.3px;
+    width:3%;
+    margin-top:103px;
+    background-color:black;
+}
+#num9{
+    margin-left:9%;
+    height:103.3px;
+    width:3%;
+    background-color:red;
+}
+#num10{
+    margin-left:12%;
+    height:103px;
+    width:3%;
+    margin-top:207px;
+    background-color:black;
+}
+#num11{
+    margin-left:12%;
+    height:103px;
+    width:3%;
+    margin-top:103px;
+    background-color:red;
+}
+#num12{
+    margin-left:12%;
+    height:103.3px;
+    width:3%;
+    background-color:black;
+}
+#num13{
+    margin-left:15%;
+    height:103px;
+    width:3%;
+    margin-top:207px;
+    background-color:red;
+}
+#num14{
+    margin-left:15%;
+    height:103.3px;
+    width:3%;
+    margin-top:103px;
+    background-color:black;
+}
+#num15{
+    margin-left:15%;
+    height:103.3px;
+    width:3%;
+    background-color:red;
+}
+
+#my-money{
+    color: black;
+    font-weight:900;
+    font-size:25px;
+    position: absolute;
+    margin-top:35px;
+    margin-left:2%;
+}
+#bet-size, #bet{
+    position: absolute;
+}
+#bet-size{
+    margin-top:30px;
+    margin-left:35%;
+    height:40px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size:23px;
+}
+#bet{
+    cursor: pointer;
+    margin-top:30px;
+    height:40px;
+    width:10%;
+    background-color: black;
+    margin-left:87%;
+    border: none;
+    color: white;
+    transition:0.3s;
+}
+#bet:hover{
+    opacity:0.5;
+}
+#bet-container{
+width:44.22%;
+margin-left:26.4%;
+height:100px;
+margin-top:-99px;
+position: absolute;
+background-color: white;
+}
